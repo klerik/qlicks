@@ -1,0 +1,41 @@
+@import "variables.scss";
+
+header {
+	padding: 5.05em 0 0 2.56em;
+	.navigation {
+		padding: 0;
+		.navbar-brand-text {
+			font-family: $font-family-gotham;
+			font-size: 16px;
+			color: $darkGreen;
+			padding: 0.1em 0 0 0.83em;
+			letter-spacing: 0.2px;
+		}
+		.navbar-nav {
+			margin: 0 1.41em 0 0;
+			.nav-items-wrapper {
+				padding: 0 0 0 4.28em;
+				margin: 0;
+				.nav-item {
+					margin: 0;
+					padding: 0;
+					line-height: 1;
+					color: $darkGreen;
+					font-size: 20px;
+					font-weight: 500;
+					&:hover {
+						color: $orange;
+					}
+					&.active {
+						color: $darkGreen;
+						border-bottom: 1px solid $darkGreen;
+						&:hover {
+							color: $orange;
+							border-bottom: 1px solid $orange;
+						}
+					}
+				}
+			}
+		}
+	}
+}

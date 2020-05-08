@@ -1,0 +1,51 @@
+@@include('templates/header.html')
+<main class="l-wrap">
+	<div class="wrapper">
+		<section class="contact-header-wrapper">
+			<div class="contact-header">
+				<p>Snel contact:</p>
+				<p class="phone">
+					<a href="tel:+31 35 677 6666">+31 35 677 6666</a>
+				</p>
+			</div>
+		</section>
+		<section class="contacts-and-form-wrapper">
+			<section class="contact-form-wrapper">
+				<div class="contact-form">
+					<p class="contact-form-text">
+						Of vul onderstaand contactformulier in en wij zullen uw vraag zo spoedig mogelijk beantwoorden.
+					</p>
+					<form action="#" id="formSubmit" method="post">
+						<label><input type="text" placeholder="Naam" name="naam"></label>
+						<label><input type="email" placeholder="Email" name="email"></label>
+						<label><input type="tel" placeholder="Telefoonnummer" name="tel"></label>
+						<label><textarea rows="10" cols="45" name="message" placeholder="Type hier je bericht..."></textarea></label>
+						<button type="submit">Verzenden</button>
+					</form>
+				</div>
+			</section>
+			<section class="contact-block-addresses">
+				<div class="contacts-wrapper">
+					<div class="contacts">
+						<div class="contact-item">
+							<p class="title">Qlicks</p>
+							<p class="content-text">Koos Postemalaan 2 (Gateway C) 1217 ZC Hilversum</p>
+						</div>
+						<div class="contact-item">
+							<p class="title">KvK</p>
+							<p class="content-text">12345678</p>
+						</div>
+						<div class="contact-item">
+							<p class="title">BTW</p>
+							<p class="content-text">NL1234567.A01</p>
+						</div>
+					</div>
+					<div class="google-maps">
+						<div id="map"></div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</div>
+</main>
+@@include('templates/footer.html')

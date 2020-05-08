@@ -1,0 +1,45 @@
+@import "variables.scss";
+
+.justify-content-flex-end {
+	justify-content: flex-end;
+}
+
+.display-none {
+	display: none;
+}
+
+.display-block {
+	display: block;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+input, textarea {
+	display: block;
+}
+
+label {
+	display: block;
+	margin: 0;
+}
+
+input::-moz-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+input::-webkit-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+input:-ms-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+input::-ms-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+input::placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+
+
+textarea::-moz-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+textarea::-webkit-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+textarea:-ms-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+textarea::-ms-input-placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
+textarea::placeholder { color: #123341; letter-spacing: 1px; font-weight: bold }
